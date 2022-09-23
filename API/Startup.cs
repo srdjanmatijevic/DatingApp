@@ -17,18 +17,19 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
+
 namespace API
 {
     public class Startup
     {
+        
+
         private readonly IConfiguration _config;
       
         public Startup(IConfiguration config)
         {
             _config = config;
         }
-
-       
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -44,7 +45,12 @@ namespace API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
-            });
+            }
+          // services.AddAuthentication(JwtBearerDefaults);
+ccc
+saad
+sadsa
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
