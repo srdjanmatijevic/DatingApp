@@ -1,0 +1,22 @@
+.d-flex{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.btn-outline-success{
+    margin-left: 5px;
+}
+
+.container .container-fluid{
+    display: flex;
+}
+
+
+.dropdown{
+   margin-left: auto;
+   margin-right: 10px;
+}
+
+.dropdown:hover{
+    cursor: pointer;
+}
